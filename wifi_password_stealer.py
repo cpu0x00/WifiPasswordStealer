@@ -7,6 +7,7 @@ import platform
 import os
 import re
 import sys
+
 def systemOS():
 	os = platform.system()
 
@@ -31,6 +32,7 @@ def linux():
 	m = open('fsociety.txt', 'a')
 	msg = m.write('\n\n[*] there is an extra dot in the end of everypassword') 
 	print('\t')
+	
 	print("[*] ssid's and passwords are saved in (fsociety.txt) file pickit up and delete it ;)")
 	print('[*] there is an extra dot in the end of everypassword')
 
@@ -56,16 +58,18 @@ def windows():
 
 
 
-
-
 if systemOS() == 'Windows':
 	print('[*] operating system: WINDWOS ')
+	print('[*] mode: noisy')
 	print('\t')
 	windows()
+	
 
 if systemOS() == 'Linux':
 	print('[*] operating system: LINUX ')
+	print('[*] mode: noisy')
 	print('\t')
 	linux()
+	
 
 
