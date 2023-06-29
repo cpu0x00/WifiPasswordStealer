@@ -33,3 +33,7 @@ $ pyinstaller wifi_password_stealer.py --onefile
 ```
 - if you want an (.exe) file run on windows
 - if you want an (ELF) binary run on linux
+
+
+
+*Educational Purposes only blah blah blah, you get it*
